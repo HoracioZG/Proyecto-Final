@@ -4,6 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListMain">
+    android:background="#EB2C2C2C"
+    tools:context=".List.ListViewActividad"
+    android:padding="20dp">
+
+
+
+    <ListView
+        android:id="@+id/listViewId1"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewId2"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listViewId1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewId3"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/listViewId2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewL1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:fontFamily="@font/lekton005_l"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

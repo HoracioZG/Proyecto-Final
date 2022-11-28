@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_edit_list.xml" value="0.33" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_forgotpass.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_list_main.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_list_view_actividad.xml" value="0.33" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_list_view_actividad_borrar.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_list_view_actividad_editar.xml" value="0.3428442028985507" />
         <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_logo.xml" value="0.3229166666666667" />
         <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_my_adapter2.xml" value="0.1" />
         <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/layout/activity_website.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/RC-001/AndroidStudioProjects/MyProyectoFinal/app/src/main/res/menu/mi_menu.xml" value="0.3776041666666667" />
       </map>
     </option>
   </component>

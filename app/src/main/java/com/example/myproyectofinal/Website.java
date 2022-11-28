@@ -25,6 +25,8 @@ public class Website extends AppCompatActivity {
         setContentView(R.layout.activity_website);
         textview = findViewById(R.id.textView);
 
+        getSupportActionBar().hide();
+
         try {
 
             int numArchivo = getIntent().getExtras().getInt("numArchivo");
@@ -40,7 +42,7 @@ public class Website extends AppCompatActivity {
             Info datos = json.leerJson(completoTexto);
             file.close();
 
-            textview.setText("Welcome " + datos.getFirstName());
+            textview.setText("Welcome " + datos.getUserName());
             getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN , WindowManager.LayoutParams.FLAG_FULLSCREEN);
             new Handler( ).postDelayed(new Runnable() {
                 @Override

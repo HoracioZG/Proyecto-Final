@@ -8,14 +8,12 @@ import com.google.gson.Gson;
 
 public class Json extends AppCompatActivity{
 
-    public static String crearJson(String Name , String firstName , String lastName , String userName , String Mail , int Age , int Number , boolean Gender , boolean Type , String Password ) {
+    public static String crearJson(String Name , String userName , String Mail , int Age , int Number , boolean Gender , boolean Type , String Password ) {
         Info datos = new Info();
         Gson gson = new Gson();
         Des myDes = new Des();
 
         datos.setName(Name);
-        datos.setFirstName(firstName);
-        datos.setLastName(lastName);
         datos.setUserName(userName);
         datos.setMail(Mail);
         datos.setAge(Age);
